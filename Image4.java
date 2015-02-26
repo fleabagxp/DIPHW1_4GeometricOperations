@@ -200,9 +200,9 @@ public class Image4 extends JFrame {
                             yp = 255;
                         }
                         //distlenna
-                        data2D[y][x] = data_distlenna[yp][xp];
+                        //data2D[y][x] = data_distlenna[yp][xp];
                         //disgrid
-                        //newPic[y][x] = data_disgrid[yp][xp];
+                        data2D[y][x] = data_disgrid[yp][xp];
                         a = data2D[y][x];
                         histogram[a]++;
                         System.out.print(data2D[y][x] + " ");
